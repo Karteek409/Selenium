@@ -16,7 +16,7 @@ ExtentTest loge;
 	@BeforeTest
 	public void reportgen() {
 		rep.startTest("getting page title");
-		System.setProperty("webdriver.chrome.driver", "F:\\Practice\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "F:\\Practice\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(url);
 		loge=rep.startTest("pagetitle");
