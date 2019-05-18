@@ -1,0 +1,9 @@
+<suite name="jquieruitesting" >
+<test>
+<parameter name="testcases" value="4,20,19,22,23,34,21,34,45,53,34,23" />
+<classes>
+<class name="JQueryuiConstants.java"/>
+<class name="Launching.java"/>
+</classes>
+</test>
+</suite>
